@@ -6,7 +6,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int num1, num2, result;
+        int num1, num2, result = 0;
         String operator;
 
         System.out.print("수식을 입력하시오 : ");
@@ -32,25 +32,27 @@ public class Main {
                 break;
         }
 
-        System.out.println("결과는 : " + result + "입니다.");
-
-        int add(int a, int b){
-            return 0;
-        }
-
-        int sub(int a, int b){
-            return 0;
-        }
-
-        int mul(int a, int b){
-            return 0;
-        }
-
-        int div(int a, int b){
-            return 0;
-        }
+        System.out.println("결과는 " + result + "입니다.");
 
 
+
+
+    }
+
+    public static int add(int a, int b){
+        return 0;
+    }
+
+    public static int sub(int a, int b){
+        return 0;
+    }
+
+    public static int mul(int a, int b){
+        return 0;
+    }
+
+    public static int div(int a, int b){
+        return 0;
     }
 
 
