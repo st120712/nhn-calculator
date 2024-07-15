@@ -48,11 +48,11 @@ public class Main {
     }
 
     public static int mul(int a, int b){
-        return 0;
+        return a * b;
     }
 
     public static int div(int a, int b){
-        return 0;
+        return a / b;
     }
 
 
